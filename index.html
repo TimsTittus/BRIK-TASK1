@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Two Good Co. - Change the Course</title>
+    <title>Two Good Co.</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,49 +11,78 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <h1>TWO<br>GOOD<br>CO.</h1>
+                <div class="logo-text">
+                    TWO<br>
+                    GOOD<br>
+                    CO.<br>
+                    <div class="logo-symbols">
+                        <div class="circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="crosses">
+                            <div class="cross">✕✕</div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <nav class="nav">
                 <a href="#" class="nav-link">SHOP</a>
                 <a href="#" class="nav-link">CATERING</a>
                 <a href="#" class="nav-link">DONATE</a>
-            </nav>
-            <div class="menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+                <div class="nav-icons">
+                    <span class="menu-icon">☰</span>
+                    <span class="cart-icon">🛒</span>
+                </div>
+            </nav>  
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h2 class="hero-title">CHANGE<br>THE COURSE</h2>
-                <div class="hero-buttons">
-                    <button class="btn btn-primary">SHOP NEW GOODIES</button>
-                    <button class="btn btn-secondary">SHOP PANTRY</button>
-                </div>
-            </div>
+        <div class="hero-text-container">
+            <h1 class="hero-title">
+                CHANGE<br>THE COURSE
+            </h1>
+        </div>
+        <div class="hero-image">
+            <img src="assets/DJMixingMusic.png" alt="DJ mixing music">
         </div>
     </section>
 
-    <!-- Product Showcase -->
-    <section class="product-showcase">
-        <div class="container">
-            <div class="product-items">
-                <div class="product-item">
-                    <img src="/placeholder.svg?height=200&width=200" alt="Cleanse & Hydrate">
-                    <h3>CLEANSE &<br>HYDRATE</h3>
-                    <p>COCONUT & CINNAMON</p>
-                    <button class="btn btn-outline">SHOP BATH</button>
-                </div>
-                <div class="product-item">
-                    <img src="/placeholder.svg?height=200&width=200" alt="Hair Conditioner">
-                    <h3>HAIR<br>CONDITIONER</h3>
-                    <p>CEDARWOOD & CITRUS</p>
-                </div>
+    <!-- Product Grid -->
+    <section class="product-grid">
+        <div class="product-item">
+            <img src="assets/Rectangle 3.avif" alt="New Goodies">
+            <div class="product-overlay">
+                <button class="product-btn btn-red">
+                    <span class="btn-dot">●</span>
+                    <span>SHOP</span>
+                    <span class="highlight">NEW GOODIES</span>
+                    <span class="btn-arrow">→</span>
+                </button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="assets/Rectangle 2.avif" alt="Pantry">
+            <div class="product-overlay">
+                <button class="product-btn btn-green">
+                    <span class="btn-dot">●</span>
+                    <span>SHOP</span>
+                    <span class="highlight">PANTRY</span>
+                    <span class="btn-arrow">→</span>
+                </button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="assets/Rectangle 220.avif" alt="Bath">
+            <div class="product-overlay">
+                <button class="product-btn btn-blue">
+                    <span class="btn-dot">●</span>
+                    <span>SHOP</span>
+                    <span class="highlight">BATH</span>
+                    <span class="btn-arrow">→</span>
+                </button>
             </div>
         </div>
     </section>
@@ -62,46 +91,43 @@
     <section class="mission">
         <div class="container">
             <div class="mission-content">
-                <h2>WE BELIEVE IN PEOPLE,<br>UNTIL THEY BELIEVE IN<br>THEMSELVES AGAIN.</h2>
-                <p>Everything we do is designed to rebuild self worth and independence, in order to break free from the cycle of disadvantage.</p>
-                <p>With every purchase you make with us, you're helping to change the course of someone's life; you're walking alongside vulnerable women as they find their way home again.</p>
-                <button class="btn btn-primary">SHOP TO SUPPORT</button>
+                <h1 class="left-text">
+                    WE BELIEVE IN PEOPLE,<br>
+                    UNTIL THEY BELIEVE IN<br>
+                    THEMSELVES AGAIN.
+                </h1>
+                <div class="right-text">
+                    <p>Everything we do is designed to rebuild<br>self worth and independence, in order to<br>break free from the cycle of<br>disadvantage.</p>
+                    <p>With every purchase you make with us,<br> you're helping to change the course of<br> someone's life. You're making alongside<br> vulnerable women as they find their way<br> home again.</p>
+                    <a href="#" class="shop-link">SHOP TO SUPPORT</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Product Grid -->
-    <section class="product-grid">
+    <!-- Product Showcase -->
+    <section class="product-showcase">
         <div class="container">
-            <div class="grid">
+            <div class="products-grid">
                 <div class="product-card">
-                    <img src="/placeholder.svg?height=300&width=300" alt="Love + Care Pack">
-                    <div class="product-info">
-                        <h3>THE LOVE +<br>CARE PACK</h3>
-                        <p class="price">$50</p>
-                    </div>
+                    <img src="assets/Screenshot 2025-08-07 191216.png?height=300&width=300" alt="The Love Care Pack">
+                    <h3>THE LOVE CARE PACK</h3>
+                    <p class="price">$65</p>
                 </div>
                 <div class="product-card">
-                    <img src="/placeholder.svg?height=300&width=300" alt="Two Good Tote Bag">
-                    <div class="product-info">
-                        <h3>TWO GOOD TOTE BAG</h3>
-                        <p class="price">$40</p>
-                    </div>
+                    <img src="assets/blackbag.png?height=300&width=300" alt="Two Good Tote Bag">
+                    <h3>TWO GOOD TOTE BAG</h3>
+                    <p class="price">$40</p>
                 </div>
                 <div class="product-card">
-                    <img src="/placeholder.svg?height=300&width=300" alt="Nourish & Soothe Hand Lotion">
-                    <div class="product-info">
-                        <h3>NOURISH &<br>SOOTHE</h3>
-                        <p>NOURISH & SOOTHE HAND LOTION</p>
-                        <p class="price">$38</p>
-                    </div>
+                    <img src="assets/Screenshot 2025-08-07 191156.png?height=300&width=300" alt="Nourish & Soothe Hand Lotion">
+                    <h3>NOURISH & SOOTHE HAND LOTION</h3>
+                    <p class="price">$18</p>
                 </div>
                 <div class="product-card">
-                    <img src="/placeholder.svg?height=300&width=300" alt="Two Good Cookbook">
-                    <div class="product-info">
-                        <h3>RECIPES FOR RESILIENCE<br>COOKBOOK TWO</h3>
-                        <p class="price">$45</p>
-                    </div>
+                    <img src="assets/Screenshot 2025-08-07 214539.png?height=300&width=300" alt="Cookbook Two">
+                    <h3>COOKBOOK TWO</h3>
+                    <p class="price">$45</p>
                 </div>
             </div>
         </div>
@@ -110,9 +136,13 @@
     <!-- Testimonial -->
     <section class="testimonial">
         <div class="container">
-            <blockquote>
-                <p>"THANK YOU SO MUCH FOR THE BEAUTIFUL CATERING; IT MEANS A LOT WORKING WITH A COMPANY SUCH AS TWO GOOD CO."</p>
-            </blockquote>
+            <h2 class="testimonial-title">
+                THANK YOU SO MUCH FOR THE BEAUTIFUL CATERING, IT MEANS A LOT WORKING WITH A COMPANY SUCH AS TWO GOOD CO.
+            </h2>
+            <button class="message-btn">
+                SEND YOUR OWN MESSAGE
+            </button>
+                <h2 class="testimonial-content"><br>Sometimes it's the smallest actions<br> that can make the biggest impact.</h2>
         </div>
     </section>
 
@@ -120,28 +150,17 @@
     <section class="impact">
         <div class="container">
             <div class="impact-content">
-                <h2>OUR IMPACT.</h2>
-                <p>The thing is, we don't save anyone. What we do is provide a safe space for women to change the course of their own lives.</p>
-                <p>After many years of living in crisis, abuse and complex trauma, restoring self-worth is foundational for independence. We believe that through experiences that promote love and respect, we can spark and nurture a sense of self-worth for those on the path of healing.</p>
-                <button class="btn btn-primary">HERE'S HOW WE DO IT</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Connect Section -->
-    <section class="connect">
-        <div class="container">
-            <h2>CONNECT WITH US</h2>
-            <div class="social-links">
-                <a href="#" class="social-link">Facebook</a>
-                <a href="#" class="social-link">Instagram</a>
-                <a href="#" class="social-link">Twitter</a>
-                <a href="#" class="social-link">LinkedIn</a>
-                <a href="#" class="social-link">YouTube</a>
-            </div>
-            <div class="message-section">
-                <h3>SEND YOUR OWN MESSAGE</h3>
-                <p>Sometimes it's the smallest actions that can make the biggest impact.</p>
+                <div class="impact-text">
+                    <h2>OUR IMPACT.</h2>
+                    <p>The thing is, we can't save anyone.</p>
+                    <p>What we do is provide a safe space for<br> women to change the course of their own<br> lives.</p>
+                    <p>After many years of living in crisis, abuse and<br> complex trauma, restoring self-worth is<br> foundational for independence. We believe<br> healing.</p>
+                    <a href="#" class="impact-link">HERE'S HOW WE DO IT</a>
+                </div>
+                <div class="impact-images">
+                    <img src="assets/Christina-Maria-Jes-Lindsay-9143.avif?height=50&width=50" alt="Our Impact">
+                    <img src="assets/Patricia-Work-Work-Good-Stories-Two-Good-Co.avif?height=50&width=50" alt="Our Impact">
+                </div>
             </div>
         </div>
     </section>
@@ -150,28 +169,45 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CONNECT WITH US</h3>
+                    <ul class="social-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
                 <div class="footer-logo">
-                    <h3>TWO<br>GOOD<br>CO.</h3>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h4>THE NITTY GRITTIES</h4>
-                        <a href="#">Good Things</a>
-                        <a href="#">FAQs</a>
-                        <a href="#">Good Food FAQs</a>
-                        <a href="#">Good Places</a>
-                        <a href="#">Pathways</a>
-                        <a href="#">Careers</a>
+                    <div class="footer-logo-symbols">
+                        <div class="footer-circles">
+                            <div class="footer-circle"></div>
+                            <div class="footer-circle"></div>
+                        </div>
+                        <div class="footer-crosses">✕✕</div>
                     </div>
                 </div>
-                <div class="footer-bottom">
-                    <p>We are proud and privileged to have our home on this land, and to be able to continue the long tradition of community coming together around food, begun thousands of years ago by First Nations peoples. As we stand together on this unceded land, we acknowledge our First Nations people, are the original custodians of this land, and we recognise their deep connection to land, water, sky and community which continues today. We pay our deep respects to community elders, past, present and emerging, for they hold the memories, the traditions, the culture and hopes of Aboriginal and Torres Strait Islander peoples. Always was, always will be Aboriginal land.</p>
-                    <div class="footer-legal">
-                        <span>TWO GOOD CO. 2023</span>
-                        <a href="#">TERMS OF USE</a>
-                        <a href="#">PRIVACY POLICY</a>
-                    </div>
+                <div class="footer-section">
+                    <h3>THE NITTY GRITTIES</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Good Things FAQs</a></li>
+                        <li><a href="#">Good Food FAQs</a></li>
+                        <li><a href="#">Good Places</a></li>
+                        <li><a href="#">Pathways</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
                 </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>© TWO GOOD CO. 2023</p>
+                    <a href="#">TERMS OF USE</a>
+                    <a href="#">PRIVACY POLICY</a>
+                </div>
+            </div>
+            <div class="footer-acknowledgment">
+                <p>We are proud and privileged to have our home on this land, and to be able to continue the long tradition of community coming together around food, begun thousands of years ago by First Nations peoples. As we stand together on this unceded land, we acknowledge our First Nations people, are the original custodians of this land, and we recognise their deep connection to land, water, sky and community which continues today. We pay our deep respects to community elders, past, present and emerging, for they hold the memories, the traditions, the culture and hopes of Aboriginal and Torres Strait Islander peoples. Always was, always will be Aboriginal land.</p>
             </div>
         </div>
     </footer>
